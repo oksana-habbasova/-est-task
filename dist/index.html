@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/jpg" href="img/google-favicon.jpg" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="logo-wrapper">
+        <img src="img/google-logo-primary.jpg" alt="Google logo 1" class="logo" id="primaryLogo" />
+        <img
+          src="img/google-logo-secondary.jpg"
+          alt="Google logo 2"
+          class="logo hide"
+          id="secondaryLogo"
+        />
+      </div>
+      <div class="form-wrapper">
+        <form action="" method="GET">
+          <div class="search-field">
+            <div class="search-image">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 511.999 511.999"
+                width="15px"
+                fill="grey"
+              >
+                <path
+                  d="M508.874 478.708L360.142 329.976c28.21-34.827 45.191-79.103 45.191-127.309C405.333 90.917 314.416 0 202.666 0S0 90.917 0 202.667s90.917 202.667 202.667 202.667c48.206 0 92.482-16.982 127.309-45.191l148.732 148.732c4.167 4.165 10.919 4.165 15.086 0l15.081-15.082c4.165-4.166 4.165-10.92-.001-15.085zM202.667 362.667c-88.229 0-160-71.771-160-160s71.771-160 160-160 160 71.771 160 160-71.771 160-160 160z"
+                />
+              </svg>
+            </div>
+            <input type="search" class="search-input" name="search" />
+            <a href="#" class="keyboard-image" title="Транслітерація">
+              <svg
+                width="20px"
+                viewBox="0 0 511.999 511.999"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="grey"
+              >
+                <path
+                  d="M0 128.531v254.938h512V128.531zm304.734 48.735h30v30h-30zm0 63.734h30v30h-30zM241 177.266h30v30h-30zM241 241h30v30h-30zm-63.734-63.734h30v30h-30zm0 63.734h30v30h-30zm-63.735-63.734h30v30h-30zm0 63.734h30v30h-30zm-33.734 93.734h-30v-30h30zm0-63.734h-30v-30h30zm0-63.734h-30v-30h30zm255.871 127.468h-223.07v-30h223.07zm62.801 0h-30v-30h30zm0-63.734h-30v-30h30zm63.734 63.734h-30v-30h30zm0-63.734h-30v-30h30zm.934-63.734h-95.602v-30h95.602z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="microphone-image" title="Пошук голосом">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296.8 426.4" width="15px">
+                <path
+                  d="M148.4 276.1c-35.2 0-63.7-28.5-63.7-63.7V63.7C84.7 28.5 113.2 0 148.4 0s63.7 28.5 63.7 63.7v148.7c0 35.2-28.5 63.7-63.7 63.7z"
+                  fill="#4285f4"
+                />
+                <path fill="#34a853" d="M127.2 348.5h42.5v77.9h-42.5z" />
+                <path
+                  d="M254.8 213.2c-.1 58.6-47.8 106.3-106.4 106.3-29.4 0-56.1-12-75.4-31.4l-29.7 29.7c26.9 26.9 64 43.6 105.1 43.6 81.9 0 148.3-66.4 148.4-148.3h-42z"
+                  fill="#ea4335"
+                />
+                <path
+                  d="M73 288.1c-19.1-19.2-31-45.7-31-74.9H0C0 254 16.6 291 43.3 317.8L73 288.1z"
+                  fill="#fbbc05"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="buttons-field">
+            <button type="submit" class="button">Пошук Google</button>
+            <button type="button" class="button" id="changeButton">Мені пощастить</button>
+          </div>
+        </form>
+      </div>
+      <div class="language-field">
+        <span>Мова Google:</span>
+        <a href="#" class="language">English</a>
+        <a href="#" class="language">русский</a>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
